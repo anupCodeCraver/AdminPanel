@@ -1,0 +1,79 @@
+.newuser{
+    flex: 4;
+    border:1px solid ;
+    padding: 0px 10px;
+   
+}
+.newuserForm{
+    width: 70vw ;
+    display: flex;
+    /* justify-content: space-around;    */
+width:100%;
+    flex-wrap: wrap;    
+    margin: 0 auto;
+}
+
+
+.inputUser{
+border:1px solid gray !important;
+    height: 35px !important;
+    width: 400px !important;
+    border-radius: 5px !important;
+    padding-left: 10px !important;
+}
+.LblInputDiv{
+    display: flex;
+    flex-direction: column;
+margin-right: 50px;
+}
+.LblInputDiv>label{
+    font-size: 16px;
+    margin-bottom: 10px ;
+}
+select{
+    display:block;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: static;
+    opacity: 1;
+    pointer-events:all;
+}
+.radiodiv{
+    width: 400px;
+    margin-right: 60px;
+    
+}
+.gender{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.activeLabel{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:gray;
+    font-weight: 500;
+}
+.labelpush{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.SelectDiv{
+    width: 400px;
+    border-radius: 5px;
+}
+.newUserSelect{
+    border:1px solid grey;  
+}
+.newUserbtn1{
+    border:none;
+    width: 250px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color:darkblue;
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}   

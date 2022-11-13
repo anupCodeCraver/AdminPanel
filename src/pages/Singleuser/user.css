@@ -1,0 +1,171 @@
+.userEdit {
+    flex: 4;
+    padding: 0px 20px;
+}
+
+.userPanel {
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usertitleEdit {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.userEditButton {
+    padding: 7px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(4, 125, 125) !important;
+    color: #fff;
+    font-weight: 500;
+    height: 35px;
+    border: none;
+}
+
+.information {
+    display: flex;
+
+}
+
+.smalldiv {
+    display: flex;
+    align-items: center;
+}
+
+.Topdiv {
+    display: flex;
+}
+
+.userinfoo {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.userfield {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+.userShow {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+    box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+}
+
+.userShowTop {
+    display: flex;
+}
+
+.userUpdate {
+    flex: 2;
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+    box-shadow: 0px 0px 5px 0px rgba(122, 117, 122, 1);
+}
+
+.UserImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.usertitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(149, 149, 149)
+}
+
+.actualinfo {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.userName {
+    margin-left: 6px;
+}
+
+.userShowBottom {
+    margin-top: 15px;
+}
+
+.userinfoIcon {
+    font-size: 16px !important;
+}
+
+.userUpdate {
+    /* display: flex; */
+}
+
+.userimgd {
+    width: 160px;
+    margin-right: 10px;
+    height: 200px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
+
+.leftEditSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.userUpdateTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.publishbtn {
+    font-size: 35px !important;
+    font-weight: 500;
+    color:rgb(65, 64, 64);
+    cursor: pointer;
+}
+
+.userForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.userUpdateItem>label {
+    font-size: 13px;
+}
+
+.imagediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.imgdiv{
+    display: flex;
+    align-items:center;  
+}
+.updatebtn {
+    background: darkblue;
+    color: #fff;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

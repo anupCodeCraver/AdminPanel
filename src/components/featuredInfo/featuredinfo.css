@@ -1,0 +1,49 @@
+.featuredSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+/* margin: 20px; */
+    }
+.featuredInfoWrapper{
+    flex:1;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+}
+.featuredInfoWrapper:hover{
+    transform: scale(1.02);
+}
+.featuredTitle{
+    font-size: 20px;
+}
+.featuredMoneyContainer{
+    display: flex;
+    align-items: center;
+}
+.featuredMony{
+font-size: 35px;
+margin-right: 20px;
+}
+.featuredMoneyRate{
+    display: flex;
+    align-items:center
+}
+.featuredArrow{
+    font-size: 20px ;
+    margin-left: 5px;
+    color:green;
+
+}
+.featuredArrow.negative{
+    color:red
+}
+.featuredSub{
+    font-size: 15px;
+    color:gray;
+}

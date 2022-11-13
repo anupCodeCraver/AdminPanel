@@ -1,0 +1,55 @@
+.smallContainer{
+    flex: 1;
+    padding: 10px;  
+    margin-right:20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+    box-shadow: 0px 0px 5px 0px rgba(122,117,122,1);
+}
+.widgetsmTitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+.widgetsmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.widgetsmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetsmListItem{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.widgetsmInfo{
+    display: flex;
+    flex-direction: column;
+}
+.widgetsmName{
+    font-size: 16px;
+    font-weight: 600;   
+}
+.widgetsmField{
+    font-size: 14px;
+    color: #777 ;
+}
+.BtnUser{
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    color:#666; 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.widgetIcon{
+    font-size: 14px;
+    margin-right: 5px;
+}
